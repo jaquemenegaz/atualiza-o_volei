@@ -1,0 +1,257 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8dc0e9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #17a2b8;
+            background-image: url('img/img_fundo.png');
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 4rem;
+            font-family: 'Pacifico';
+            font-weight: bold;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            border: #343a40;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            color: #007bff;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #0056b3;
+        }
+
+        .table {
+            margin-top: 30px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table th, .table td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .table th {
+            background-color: #343a40;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #62a4f4;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .ex {
+            text-align: justify;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        .rounded {
+            border-radius: 10px;
+        }
+
+        .btn-dark {
+            margin-top: 10px;
+        }
+
+        .image-container {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .btn-container {
+            margin-bottom: 20px;
+        }
+
+        main {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .table tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #e9ecef;
+        }
+
+        .thead-dark th {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .navbar form {
+            margin-left: 30px;
+            margin-right: 20px;
+        }
+
+        .navbar-toggler {
+            margin-right: 10px;
+        }
+
+        .navbar-nav {
+            margin-right: auto;
+        }
+
+        /* Novo estilo para o título da tabela */
+        #titulo_tabela tr {
+            background-color: #007bff; /* Fundo azul */
+        }
+
+        #titulo_tabela th {
+            color: white; /* Texto branco */
+        }
+
+        .subtitulo {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .btn-container {
+            margin-bottom: 20px;
+        }
+
+        .btn-dark {
+            margin-top: 10px;
+        }
+
+        .image-container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 60%;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .tactics-container {
+            background-color: #17a2b8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tactics-container .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-left: 30px;  /* Aumenta o espaço entre os botões e a imagem */
+            align-items: center;
+        }
+
+        .tactics-container .image-container {
+            margin-left: 30px;  /* Aumenta o espaço entre a imagem e os botões */
+            max-width: 100%;
+        }
+
+        .tactics-container .image-container img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .tactics-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .tactics-container .image-container {
+                max-width: 100%;
+            }
+        }
+
+        #subtitulo {
+            font-size: 3.5rem;
+            color: #17a2b8;
+            text-align: center;
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+            font-family: 'Pacifico', cursive;
+            margin-top: 30px;
+        }
+
+       
+        .btn-tactic {
+            background-color: #abccef; 
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 20px 40px;
+            border-radius: 10px;
+            border: none;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+        }
+
+        .btn-tactic:hover {
+            background-color: #0056b3;  
+            transform: scale(1.1);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-tactic:active {
+            background-color: #94bce7;  
+            transform: scale(1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .jogadores-container {
+            background-color: #17a2b8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        

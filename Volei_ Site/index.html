@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang='pt-BR'>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>tudosobrevolei.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8dc0e9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #17a2b8;
+            background-image: url('img/img_fundo.png');
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 4rem;
+            font-family: 'Pacifico';
+            font-weight: bold;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            border: #343a40;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            color: #007bff;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #0056b3;
+        }
+
+        .table {
+            margin-top: 30px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table th, .table td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .table th {
+            background-color: #343a40;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #62a4f4;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .ex {
+            text-align: justify;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        .rounded {
+            border-radius: 10px;
+        }
+
+        .btn-dark {
+            margin-top: 10px;
+        }
+
+        .image-container {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .btn-container {
+            margin-bottom: 20px;
+        }
+
+        main {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #e9ecef;
+        }
+
+        .thead-dark th {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .navbar form {
+            margin-left: 30px;
+            margin-right: 20px;
+        }
+
+        .navbar-toggler {
+            margin-right: 10px;
+        }
+
+        .navbar-nav {
+            margin-right: auto;
+        }
+
+        /* Novo estilo para o título da tabela */
+        #titulo_tabela tr {
+            background-color: #007bff; /* Fundo azul */
+        }
+
+        #titulo_tabela th {
+            color: white; /* Texto branco */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Tudo sobre Vôlei</h1>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+                aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav nav-tabs float-left">
+                <li class="nav-item">
+                    <a class="nav-link" href="fundamentos.html">Fundamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="taticas.html">Táticas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jogadores.html">Jogadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="substituição.html">Substituições</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+                <div>O voleibol ou vôlei é um esporte praticado entre duas equipes numa quadra retangular (aberta ou
+                    fechada). Ela é dividida por uma rede colocada verticalmente sobre a linha central. O voleibol é
+                    jogado com uma bola e inclui diversos passes com as mãos. O objetivo principal é lançar a bola por
+                    cima da rede e fazê-la tocar no chão do adversário. No total, são 12 jogadores. Existem ainda 6
+                    jogadores reserva.</div>
+
+                <div class="image-container">
+                    <img src="img/quadra.jfif" class="rounded float-left m-4">
+                </div>
+
+                <p>Cada jogada do vôlei tem início com os saques. O sacador, como é chamado o jogador que lança a bola,
+                    tem que arremessar a bola por cima da rede e dentro da quadra de seu adversário.</p>
+                <p>Se ele ultrapassar o limite, a bola vai retornar para seu adversário sacar. Note que quando a bola
+                    toca no chão do time adversário, ocorre a marcação de pontos. A chamada “zona de saque” representa o
+                    local onde o jogador (sacador) deve permanecer para lançar a bola. Trata-se de uma área de 9 metros
+                    de largura situada após cada linha de fundo.</p>
+
+                <div class="image-container">
+                    <img src="img/jogadores.jfif" class="rounded float-right margin-top-1 ml-4 ">
+                </div>
+
+                <p class="ex">
+                    Os jogadores recebem o saque através do fundamento da recepção, que é um dos aspectos mais importantes do jogo de vôlei. A recepção é geralmente feita utilizando técnicas específicas, como a manchete ou o toque, dependendo da situação e da habilidade do jogador. A manchete, por exemplo, é um movimento fundamental no qual o jogador utiliza os antebraços juntos para direcionar a bola de forma controlada para o levantador. Já o toque é usado para passes mais precisos, quando a bola está mais alta ou para passes rápidos.
+                </p>
+
+                <p>
+                    O voleibol é um esporte coletivo jogado entre duas equipes de seis jogadores, cujo objetivo é fazer a bola tocar o chão do lado adversário. O jogo começa com o saque, onde o jogador arremessa a bola para o campo oposto, e segue com a recepção, feita com técnicas como manchete ou toque. O levantador distribui passes para os atacantes, que tentam marcar pontos com ataques fortes e precisos. A defesa também é importante, com o bloqueio sendo uma das principais formas de impedir os ataques adversários.
+
+                    O esporte exige grande habilidade técnica, coordenação e trabalho em equipe. A movimentação dos jogadores, a estratégia e a comunicação durante o jogo são essenciais para superar o time adversário. Além disso, a preparação física e mental dos atletas é fundamental, já que o voleibol é um jogo rápido e dinâmico, que demanda resistência e precisão em todas as ações.
+                </p>
+
+            </article>
+        </main>
+
+        <table class="table">
+
+            <thead id="titulo_tabela">
+                <tr>
+                    <th colspan="3" class="text-center">Jogos da Semana</th>
+                </tr>
+            </thead>
+
+            <thead>
+                <tr>
+                    <th scope="col">Time A</th>
+                    <th scope="col">Time B</th>
+                    <th scope="col">Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bélgica</td>
+                    <td>Itália</td>
+                    <td>13h</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td>Alemanha</td>
+                    <td>15h</td>
+                </tr>
+                <tr>
+                    <td>Coreia do Sul</td>
+                    <td>Búlgaria</td>
+                    <td>17h</td>
+                </tr>
+                <tr>
+                    <td>Paises Baixos</td>
+                    <td>Turquia</td>
+                    <td>19h</td>
+                </tr>
+                <tr>
+                    <td>Japão</td>
+                    <td>Canadá</td>
+                    <td>21h</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer style="background-color: #62a4f4; color: white; padding: 10px;">
+            <b>Contatos:</b>
+            
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 10px;">
+              
+                <div style="display: flex; align-items: center;">
+                    <img src="img/img_insta.png" style="width: 30px; height: 30px; margin-right: 5px;" class="rounded">
+                    <span>@tudo_sobre_volei</span>
+                </div>
+                
+                <div style="display: flex; align-items: center;">
+                    <img src="img/img_x.jpg" style="width: 30px; height: 30px; margin-right: 5px;" class="rounded">
+                    <span>@tudo_sobre_volei</span>
+                </div>
+            </div>
+        </footer>
+        
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
